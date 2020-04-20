@@ -77,3 +77,7 @@ C:\Users\HP\Desktop\WebAppLogin\WebAppLogin\obj\Debug\WebAppLogin.csproj.CoreCom
 C:\Users\HP\Desktop\WebAppLogin\WebAppLogin\obj\Debug\WebAppLogin.csproj.CopyComplete
 C:\Users\HP\Desktop\WebAppLogin\WebAppLogin\obj\Debug\WebAppLogin.dll
 C:\Users\HP\Desktop\WebAppLogin\WebAppLogin\obj\Debug\WebAppLogin.pdb
+C:\Users\HP\Desktop\WebappLogin\WebAppLogin\bin\EntityFramework.dll
+C:\Users\HP\Desktop\WebappLogin\WebAppLogin\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\WebappLogin\WebAppLogin\bin\EntityFramework.xml
+C:\Users\HP\Desktop\WebappLogin\WebAppLogin\bin\EntityFramework.SqlServer.xml

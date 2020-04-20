@@ -1,0 +1,15 @@
+@model WebAppLogin.Models.EmployeeViewModel
+@{
+  ViewBag.Title = "Index";
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@if (Model != null)
+{
+<p>@Model.EmployeeId</p><br>
+<p>@Model.Name</p><br>
+  <p>@Model.Address</p>
+
+}
