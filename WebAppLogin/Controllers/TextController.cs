@@ -12,6 +12,7 @@ namespace WebAppLogin.Controllers
         // GET: Text
         public ActionResult Index()
         {
+
       webapplogindatabaseEntities db = new webapplogindatabaseEntities();
       Employee employee = db.Employees.SingleOrDefault(x => x.EmployeeId == 1);
       EmployeeViewModel vm = new EmployeeViewModel();
@@ -20,7 +21,8 @@ namespace WebAppLogin.Controllers
       vm.DId = employee.DId;
       vm.Address = employee.Address;
 
-        return View(vm);
+      return View(vm);
+
       //return Content("hello");
     }
     }
