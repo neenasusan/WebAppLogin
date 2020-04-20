@@ -12,13 +12,13 @@ namespace WebAppLogin.Controllers
         // GET: Text
         public ActionResult Index()
         {
-      webapplogindatabaseEntities db = new webapplogindatabaseEntities();
-      Employee employee = db.Employees.SingleOrDefault(x => x.EmployeeId == 1);
-      EmployeeViewModel vm = new EmployeeViewModel();
-      vm.EmployeeId = employee.EmployeeId;
-      vm.Name = employee.Name;
-      vm.DId = employee.DId;
-      vm.Address = employee.Address;
+      //webapplogindatabaseEntities db = new webapplogindatabaseEntities();
+      //Employee employee = db.Employees.SingleOrDefault(x => x.EmployeeId == 1);
+      //EmployeeViewModel vm = new EmployeeViewModel();
+      //vm.EmployeeId = employee.EmployeeId;
+      //vm.Name = employee.Name;
+      //vm.DId = employee.DId;
+      //vm.Address = employee.Address;
 
       //return View(vm);
       return Content("hello");
